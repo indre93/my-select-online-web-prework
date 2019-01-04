@@ -4,5 +4,6 @@ def my_select(nums)
     while num < nums.length
      array << yield(nums[num])
      num += 1
+     return array
     end
 end
