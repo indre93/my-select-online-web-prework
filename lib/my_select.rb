@@ -6,5 +6,8 @@ def my_select(nums)
      num += 1
     end
     if empty_array.even?
-      
+      return empty_array
+    else
+      return nums
+    end
 end
