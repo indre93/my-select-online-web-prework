@@ -5,4 +5,5 @@ def my_select(nums)
     array << yield(nums[num])
     num += 1
    end
+   array
 end
