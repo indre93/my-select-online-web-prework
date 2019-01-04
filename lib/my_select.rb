@@ -1,8 +1,8 @@
 def my_select(nums)
   num = 0
-  array = []
+  empty_array = []
     while num < nums.length
-     array << yield(nums[num])
+     empty_array << yield(nums[num])
      num += 1
      return array
     end
