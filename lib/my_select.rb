@@ -1,7 +1,7 @@
-def my_select(collection)
-  i = 0
-   while i < collection.length
-    yield(collection[i])
-    i += 1
+def my_select(nums)
+  num = 0
+   while num < nums.length
+    yield(nums[num])
+    num += 1
    end
 end
