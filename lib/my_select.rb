@@ -4,6 +4,7 @@ def my_select(nums)
     while num < nums.length
      empty_array << yield(nums[num])
      num += 1
-     return array
     end
+    if empty_array.even?
+      
 end
