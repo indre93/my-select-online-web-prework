@@ -5,6 +5,7 @@ def my_select(nums)
      empty_array << yield(nums[num])
      num += 1
     end
+    
     if empty_array.even?
       return empty_array
     else
